@@ -5,7 +5,7 @@
 }
 
 .typing {
-  animation: typing 4s steps(27), cursor 0.4s step-end infinite alternate;
+  animation: typing 4s step-start, cursor 0.4s step-end infinite alternate;
 }
 
 @keyframes typing {

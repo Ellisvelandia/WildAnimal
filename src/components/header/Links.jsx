@@ -1,0 +1,29 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+const Navlinks = [
+  { name: "Home", to: "/" },
+  { name: "Contribute", to: "/contribute" },
+  { name: "Wildlife", to: "/wildlife" },
+];
+
+const Links = () => {
+  return (
+    <div className="mt-4 justify-end flex items-center w-full">
+      {Navlinks.map(({ name, to }) => (
+        <ul className="flex text-lg justify-center" key={name + to}>
+          <li>
+            <Link
+              to={to}
+              className="mr-8 tracking-wide text-center text-black cursor-pointer hover:text-green-600 delay-100 md:text-lg font-bold text-base"
+            >
+              {name}
+            </Link>
+          </li>
+        </ul>
+      ))}
+    </div>
+  );
+};
+
+export default Links;

@@ -8,7 +8,7 @@ const WildLife = () => {
       <center className="">
         <div className="">
           <div className="">
-            <p className="typing text-7xl inline border-r-4 border-solid w-full whitespace-nowrap overflow-hidden">
+            <p className="typing lg:text-7xl md:text-4xl text-2xl inline text-center border-r-4 border-solid w-full whitespace-nowrap overflow-hidden">
               It's time to save
               <span className="text-green-500"> Wildlife.</span>
             </p>
