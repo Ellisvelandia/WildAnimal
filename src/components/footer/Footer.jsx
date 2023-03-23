@@ -12,7 +12,7 @@ import { HiLocationMarker } from "react-icons/hi";
 
 const Footer = () => {
   return (
-    <footer className="grid place-content-center w-full bg-cover py-12 px-[7%] bg-green-600 text-white">
+    <footer className="grid place-content-center -mt-8 w-full bg-cover py-12 px-[7%] bg-[#3C693B] text-white">
       <div className="w-full grid md:grid-cols-3 gap-4 grid-cols-1 place-content-center">
         <div className="h-full flex flex-col items-center gap-2">
           <FaPaw size={30} />

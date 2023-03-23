@@ -15,7 +15,8 @@ const Contribute = () => {
           src="https://www.worldanimalprotection.org/themes/custom/wap_master/images/svg/wap-logo.svg"
           alt="logo"
           className="absolute top-5 md:w-40 md:h-40 w-16 h-16 left-5"
-          loading="lazy"
+            loading="lazy"
+
         />
       </div>
       <article className="w-full flex flex-col justify-center mt-4 h-full text-center">

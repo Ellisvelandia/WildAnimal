@@ -1,9 +1,9 @@
 import React from "react";
-import bird  from "../../public/assets/banner_1.png";
+import bird from "/assets/banner_1.png";
 
 const Banner = () => {
   return (
-    <section className="bg-[url(/assets/banner.png)] bg-cover w-full bg-no-repeat min-h-screen block">
+    <section className="bg-[url(/assets/banner.png)] bg-cover w-full text-white bg-no-repeat min-h-screen block">
       <div className="flex items-center p-8 flex-wrap gap-24">
         <div className="flex1">
           <h3 className="text-xl font-semibold text-center uppercase text-green-600">stay with pets</h3>
