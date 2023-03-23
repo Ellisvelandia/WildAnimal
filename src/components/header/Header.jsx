@@ -28,13 +28,22 @@ const Header = () => {
         <Hamburger
           duration={1.2}
           color="green"
-           size={30}
+          size={30}
           toggled={isOpen}
           toggle={setIsOpen}
           onClick={() => setToggle(!toggle)}
         />
 
-        {isOpen && <Links />}
+        {isOpen && (
+          <div className="flex flex-col justify-center w-full items-center">
+            <Links />
+            <img
+              src="https://i.ibb.co/pxS0ZBM/download-removebg-preview.webp"
+              alt="Earth"
+              className="w-12 h-12 cursor-pointer mt-4 mr-6"
+            />
+          </div>
+        )}
       </div>
     </header>
   );

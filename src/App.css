@@ -1,21 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,200;1,600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
 }
 
-.typing {
-  animation: typing 4s step-start, cursor 0.4s step-end infinite alternate;
+.carousel .slide img {
+  height: 500px;
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
+.carousel .control-dots .dot {
+  background-color: green !important;
 }
 
-@keyframes cursor {
-  50% {
-    border-color: transparent;
+.carousel .thumbs-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .carousel .slide img {
+    height: 260px;
+    object-fit: fill;
   }
 }
