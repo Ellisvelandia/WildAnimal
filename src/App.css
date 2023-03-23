@@ -15,6 +15,14 @@
   background-color: green !important;
 }
 
+.flex1 {
+  flex: 1 1 39rem;
+}
+
+.flex2 {
+  flex: 1 1 41rem;
+}
+
 .carousel .thumbs-wrapper {
   display: flex;
   justify-content: center;

@@ -1,4 +1,5 @@
 import React from "react";
+import Banner from "../components/Banner";
 import Cards from "../components/Cards";
 
 const WildLife = () => {
@@ -11,6 +12,7 @@ const WildLife = () => {
         </p>
       </center>
       <Cards />
+      <Banner />
     </main>
   );
 };
